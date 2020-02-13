@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myApp';
-  showData : boolean = false;
-  showDiv(): void {
-    this.showData = this.showData == false ? true : false;
-  }
+  title = 'employeeManagement';
 }
-
-
